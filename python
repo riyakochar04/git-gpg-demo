@@ -1,0 +1,14 @@
+# This is a basic Python script
+
+# Function to greet the user
+def greet(name):
+    return f"Hello, {name}!"
+
+# Main section of the script
+if __name__ == "__main__":
+    # Print a simple message
+    print("Hello, World!")
+    
+    # Call the greet function and print the result
+    user_name = "DevOps Engineer"
+    print(greet(user_name))
